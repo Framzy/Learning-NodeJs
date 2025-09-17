@@ -5,7 +5,8 @@
       "type": "node",
       "request": "launch",
       "name": "Debug Node.js",
-      "program": "${file}"
+      "program": "${file}",
+      "console": "integratedTerminal"
     }
   ]
 }
