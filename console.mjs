@@ -12,3 +12,10 @@ const log = new Console({
 
 log.info("Hello Console");
 log.error("Ups");
+
+const person = {
+  firstName: "Farden",
+  lastName: "Ramzy",
+};
+
+log.table(person);
