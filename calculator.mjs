@@ -4,7 +4,7 @@ const args = process.argv.slice(2);
 
 if (args.length !== 3) {
     console.log('Usage: node calculator.mjs <operation> <num1> <num2>');
-    console.log('Operations: add, subtract, multiply, divide');
+    console.log('Operations: add, subtract, multiply, divide, mod, power');
     process.exit(1);
 }
 
@@ -34,6 +34,12 @@ switch (operation) {
             process.exit(1);
         }
         result = num1 / num2;
+        break;
+    case 'mod':
+        result = num1 % num2;
+        break;
+    case 'power':
+        result = Math.pow(num1, num2);
         break;
     default:
         console.log('Invalid operation');
