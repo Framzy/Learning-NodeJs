@@ -1,0 +1,8 @@
+Hello Console
+Ups
+┌───────────┬──────────┐
+│ (index)   │ Values   |
+├───────────┼──────────┤
+│ firstName │ 'Farden' │
+│ lastName  │ 'Ramzy'  │
+└───────────┴──────────┘

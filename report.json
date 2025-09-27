@@ -1,0 +1,801 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2025-09-17T16:31:28Z",
+    "dumpEventTimeStamp": "1758101488856",
+    "processId": 2503,
+    "threadId": 0,
+    "cwd": "/Users/alviahhairiza/Downloads/FARDEN/Learning-NodeJs",
+    "commandLine": [
+      "node",
+      "/Users/alviahhairiza/Downloads/FARDEN/Learning-NodeJs/report.mjs"
+    ],
+    "nodejsVersion": "v22.19.0",
+    "wordSize": 64,
+    "arch": "arm64",
+    "platform": "darwin",
+    "componentVersions": {
+      "acorn": "8.15.0",
+      "ada": "2.9.2",
+      "amaro": "1.1.0",
+      "ares": "1.34.5",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "2.1.0",
+      "cldr": "47.0",
+      "icu": "77.1",
+      "llhttp": "9.3.0",
+      "modules": "127",
+      "napi": "10",
+      "nbytes": "0.1.1",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.64.0",
+      "node": "22.19.0",
+      "openssl": "3.0.17",
+      "simdjson": "3.13.0",
+      "simdutf": "6.4.2",
+      "sqlite": "3.50.4",
+      "tz": "2025b",
+      "undici": "6.21.2",
+      "unicode": "16.0",
+      "uv": "1.51.0",
+      "uvwasi": "0.0.21",
+      "v8": "12.4.254.21-node.29",
+      "zlib": "1.3.1-470d3a2",
+      "zstd": "1.5.7"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Jod",
+      "headersUrl": "https://nodejs.org/download/release/v22.19.0/node-v22.19.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v22.19.0/node-v22.19.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "22.3.0",
+    "osVersion": "Darwin Kernel Version 22.3.0: Mon Jan 30 20:38:43 PST 2023; root:xnu-8792.81.3~2/RELEASE_ARM64_T8112",
+    "osMachine": "arm64",
+    "cpus": [
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 110590,
+        "nice": 0,
+        "sys": 65820,
+        "idle": 551580,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 93910,
+        "nice": 0,
+        "sys": 47260,
+        "idle": 587320,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 82710,
+        "nice": 0,
+        "sys": 36850,
+        "idle": 610020,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 71000,
+        "nice": 0,
+        "sys": 30150,
+        "idle": 629340,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 51930,
+        "nice": 0,
+        "sys": 13620,
+        "idle": 665970,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 45410,
+        "nice": 0,
+        "sys": 9710,
+        "idle": 676860,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 31050,
+        "nice": 0,
+        "sys": 6300,
+        "idle": 694940,
+        "irq": 0
+      },
+      {
+        "model": "Apple M2",
+        "speed": 2400,
+        "user": 23020,
+        "nice": 0,
+        "sys": 4220,
+        "idle": 705300,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "anpi1",
+        "internal": false,
+        "mac": "fa:15:b2:1f:7a:da",
+        "address": "fe80::f815:b2ff:fe1f:7ada",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "anpi0",
+        "internal": false,
+        "mac": "fa:15:b2:1f:7a:d9",
+        "address": "fe80::f815:b2ff:fe1f:7ad9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "5c:1b:f4:9a:81:79",
+        "address": "fe80::896:42ef:48d3:4de9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "5c:1b:f4:9a:81:79",
+        "address": "192.168.18.220",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "46:7b:13:6c:0f:70",
+        "address": "fe80::447b:13ff:fe6c:f70",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::8f28:11e8:afab:f2c3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::25ca:9e76:8b18:7628",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::ce81:b1c:bd2c:69e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 21
+      }
+    ],
+    "host": "Alviahs-Mac-mini.local"
+  },
+  "javascriptStack": {
+    "message": "Error: Ups",
+    "stack": [
+      "at sampleError (file:///Users/alviahhairiza/Downloads/FARDEN/Learning-NodeJs/report.mjs:11:9)",
+      "at file:///Users/alviahhairiza/Downloads/FARDEN/Learning-NodeJs/report.mjs:14:1",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:345:25)",
+      "at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:651:26)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 5373952,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 5505024,
+    "availableMemory": 2194194640,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2528,
+    "usedMemory": 4493480,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 163968,
+    "externalMemory": 1646434,
+    "peakMallocedMemory": 108032,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 802816,
+        "capacity": 1030912,
+        "used": 651792,
+        "available": 379120
+      },
+      "old_space": {
+        "memorySize": 2899968,
+        "committedMemory": 3145728,
+        "capacity": 2845152,
+        "used": 2831536,
+        "available": 13616
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 229376,
+        "capacity": 212992,
+        "used": 40960,
+        "available": 172032
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 884736,
+        "committedMemory": 1048576,
+        "capacity": 864648,
+        "used": 707032,
+        "available": 157616
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030912,
+        "used": 0,
+        "available": 1030912
+      },
+      "large_object_space": {
+        "memorySize": 278528,
+        "committedMemory": 278528,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000104c68960",
+      "symbol": "node::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::Value>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104bd378c",
+      "symbol": "node::ReportFatalException(node::Environment*, v8::Local<v8::Value>, v8::Local<v8::Message>, node::EnhanceFatalException) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104bd43e8",
+      "symbol": "node::errors::TriggerUncaughtException(v8::Isolate*, v8::Local<v8::Value>, v8::Local<v8::Message>, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104bd4bf4",
+      "symbol": "node::errors::TriggerUncaughtException(v8::FunctionCallbackInfo<v8::Value> const&) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001057def98",
+      "symbol": "Builtins_CallApiCallbackGeneric [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001057dcef0",
+      "symbol": "Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001058191b0",
+      "symbol": "Builtins_AsyncFunctionAwaitRejectClosure [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001058e4678",
+      "symbol": "Builtins_PromiseRejectReactionJob [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000105809644",
+      "symbol": "Builtins_RunMicrotasks [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001057daaf4",
+      "symbol": "Builtins_JSRunMicrotasksEntry [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104f16154",
+      "symbol": "v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104f169fc",
+      "symbol": "v8::internal::(anonymous namespace)::InvokeWithTryCatch(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104f16b34",
+      "symbol": "v8::internal::Execution::TryRunMicrotasks(v8::internal::Isolate*, v8::internal::MicrotaskQueue*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104f43d58",
+      "symbol": "v8::internal::MicrotaskQueue::RunMicrotasks(v8::internal::Isolate*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104f444dc",
+      "symbol": "v8::internal::MicrotaskQueue::PerformCheckpoint(v8::Isolate*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104ad19a8",
+      "symbol": "node::InternalCallbackScope::Close() [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104ad1474",
+      "symbol": "node::InternalCallbackScope::~InternalCallbackScope() [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104b8a734",
+      "symbol": "node::StartExecution(node::Environment*, std::__1::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104ad63b8",
+      "symbol": "node::LoadEnvironment(node::Environment*, std::__1::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>, std::__1::function<void (node::Environment*, v8::Local<v8::Value>, v8::Local<v8::Value>)>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104c1ddcc",
+      "symbol": "node::NodeMainInstance::Run() [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000104b8dfc0",
+      "symbol": "node::Start(int, char**) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001af237e50",
+      "symbol": "start [/usr/lib/dyld]"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 81903616,
+    "total_memory": 8589934592,
+    "rss": 38207488,
+    "available_memory": 81903616,
+    "userCpuSeconds": 0.033111,
+    "kernelCpuSeconds": 0.02992,
+    "cpuConsumptionPercent": 6.3031,
+    "userCpuConsumptionPercent": 3.3111,
+    "kernelCpuConsumptionPercent": 2.992,
+    "maxRss": 38207488,
+    "pageFaults": {
+      "IORequired": 1710,
+      "IONotRequired": 979
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.033113,
+    "kernelCpuSeconds": 0.0299,
+    "cpuConsumptionPercent": 6.3013,
+    "userCpuConsumptionPercent": 3.3113,
+    "kernelCpuConsumptionPercent": 2.99,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000012d63ee60"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000109bf23f8"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x000000011d809ac0",
+      "repeat": 0,
+      "firesInMsFromNow": -733020,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000011d809b58"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000011d809bd0"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000011d809c48"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000011d809cc0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000011d809d38"
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000012e03caf8",
+      "localEndpoint": null,
+      "remoteEndpoint": null,
+      "sendBufferSize": 65536,
+      "recvBufferSize": 65536,
+      "fd": 1,
+      "stdio": "stdout",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000012e03cd38",
+      "localEndpoint": null,
+      "remoteEndpoint": null,
+      "sendBufferSize": 65536,
+      "recvBufferSize": 65536,
+      "fd": 0,
+      "stdio": "stdin",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "pipe",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000012e03d118",
+      "localEndpoint": null,
+      "remoteEndpoint": null,
+      "sendBufferSize": 65536,
+      "recvBufferSize": 65536,
+      "fd": 2,
+      "stdio": "stderr",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000012e03d490",
+      "signum": 31,
+      "signal": "SIGUSR2"
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x0000000109c00ec8",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "VSCODE_CRASH_REPORTER_PROCESS_TYPE": "extensionHost",
+    "SHELL": "/bin/zsh",
+    "TMPDIR": "/var/folders/p_/jrqblcrs4nz1pmt4s5pngj640000gn/T/",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "MallocNanoZone": "0",
+    "USER": "alviahhairiza",
+    "COMMAND_MODE": "unix2003",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.klF2oDpt3W/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "PATH": "/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/Users/alviahhairiza/.spicetify",
+    "_": "/usr/local/bin/node",
+    "WALLABY_PRODUCTION": "true",
+    "__CFBundleIdentifier": "com.microsoft.VSCode",
+    "PWD": "/Users/alviahhairiza/Downloads/FARDEN/Learning-NodeJs",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_ESM_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "XPC_FLAGS": "0x0",
+    "XPC_SERVICE_NAME": "application.com.microsoft.VSCode.32829282.32829288",
+    "SHLVL": "1",
+    "HOME": "/Users/alviahhairiza",
+    "VSCODE_NLS_CONFIG": "{\"userLocale\":\"en-us\",\"osLocale\":\"en-id\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"/Users/alviahhairiza/Desktop/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}",
+    "APPLICATION_INSIGHTS_NO_STATSBEAT": "true",
+    "LOGNAME": "alviahhairiza",
+    "VSCODE_IPC_HOOK": "/Users/alviahhairiza/Library/Application Support/Code/1.10-main.sock",
+    "VSCODE_CODE_CACHE_PATH": "/Users/alviahhairiza/Library/Application Support/Code/CachedData/f220831ea2d946c0dcb0f3eaa480eb435a2c1260",
+    "VSCODE_PID": "656",
+    "VSCODE_L10N_BUNDLE_LOCATION": "",
+    "VSCODE_CWD": "/"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048575,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8372224,
+      "hard": 67092480
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 1333,
+      "hard": 2000
+    },
+    "virtual_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/usr/local/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal",
+    "/usr/lib/liboah.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_collections.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_containermanager.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib",
+    "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libenergytrace.dylib",
+    "/usr/lib/libbsm.0.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/system/libkxld.dylib",
+    "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/FSEvents",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices",
+    "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SharedFileList.framework/Versions/A/SharedFileList",
+    "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+    "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+    "/usr/lib/libapple_nghttp2.dylib",
+    "/usr/lib/libcompression.dylib",
+    "/usr/lib/libnetwork.dylib",
+    "/usr/lib/libsqlite3.dylib",
+    "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+    "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+    "/usr/lib/libCoreEntitlements.dylib",
+    "/System/Library/PrivateFrameworks/MessageSecurity.framework/Versions/A/MessageSecurity",
+    "/System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer",
+    "/usr/lib/libMobileGestalt.dylib",
+    "/System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression",
+    "/usr/lib/libcoretls.dylib",
+    "/usr/lib/libcoretls_cfhelpers.dylib",
+    "/usr/lib/libpam.2.dylib",
+    "/usr/lib/libxar.1.dylib",
+    "/System/Library/PrivateFrameworks/CoreAutoLayout.framework/Versions/A/CoreAutoLayout",
+    "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+    "/usr/lib/libarchive.2.dylib",
+    "/usr/lib/libxml2.2.dylib",
+    "/usr/lib/liblangid.dylib",
+    "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+    "/usr/lib/swift/libswiftCore.dylib",
+    "/usr/lib/swift/libswiftCoreFoundation.dylib",
+    "/usr/lib/swift/libswiftDarwin.dylib",
+    "/usr/lib/swift/libswiftDispatch.dylib",
+    "/usr/lib/swift/libswiftIOKit.dylib",
+    "/usr/lib/swift/libswiftObjectiveC.dylib",
+    "/usr/lib/swift/libswiftXPC.dylib",
+    "/usr/lib/swift/libswift_Concurrency.dylib",
+    "/usr/lib/swift/libswift_StringProcessing.dylib",
+    "/usr/lib/swift/libswiftos.dylib",
+    "/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo",
+    "/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/Versions/A/IOMobileFramebuffer",
+    "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+    "/usr/lib/libpcap.A.dylib",
+    "/usr/lib/libdns_services.dylib",
+    "/usr/lib/liblzma.5.dylib",
+    "/usr/lib/libbz2.1.0.dylib",
+    "/usr/lib/libiconv.2.dylib",
+    "/usr/lib/libcharset.1.dylib",
+    "/usr/lib/swift/libswift_RegexParser.dylib",
+    "/usr/lib/libheimdal-asn1.dylib",
+    "/usr/lib/libCheckFix.dylib",
+    "/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC",
+    "/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP",
+    "/System/Library/PrivateFrameworks/MetadataUtilities.framework/Versions/A/MetadataUtilities",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+    "/usr/lib/libmecab.dylib",
+    "/usr/lib/libCRFSuite.dylib",
+    "/usr/lib/libgermantok.dylib",
+    "/usr/lib/libThaiTokenizer.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib",
+    "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparse.dylib",
+    "/System/Library/PrivateFrameworks/MIL.framework/Versions/A/MIL",
+    "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory",
+    "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+    "/System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS",
+    "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",
+    "/usr/lib/libutil.dylib",
+    "/System/Library/PrivateFrameworks/InstalledContentLibrary.framework/Versions/A/InstalledContentLibrary",
+    "/System/Library/PrivateFrameworks/CoreServicesStore.framework/Versions/A/CoreServicesStore",
+    "/usr/lib/libapp_launch_measurement.dylib",
+    "/System/Library/PrivateFrameworks/AppleMobileFileIntegrity.framework/Versions/A/AppleMobileFileIntegrity",
+    "/usr/lib/libmis.dylib",
+    "/System/Library/PrivateFrameworks/MobileSystemServices.framework/Versions/A/MobileSystemServices",
+    "/System/Library/PrivateFrameworks/ConfigProfileHelper.framework/Versions/A/ConfigProfileHelper",
+    "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+    "/System/Library/PrivateFrameworks/AppleSauce.framework/Versions/A/AppleSauce",
+    "/System/Library/PrivateFrameworks/LanguageModeling.framework/Versions/A/LanguageModeling",
+    "/usr/lib/libxslt.1.dylib",
+    "/usr/lib/libcmph.dylib",
+    "/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji",
+    "/System/Library/PrivateFrameworks/LinguisticData.framework/Versions/A/LinguisticData",
+    "/System/Library/PrivateFrameworks/Lexicon.framework/Versions/A/Lexicon",
+    "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement",
+    "/usr/lib/libTLE.dylib"
+  ]
+}
